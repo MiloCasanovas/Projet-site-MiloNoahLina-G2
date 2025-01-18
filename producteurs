@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Nos producteurs</title>
+</head>
+<body>
+  <header>
+    <h1>Nos producteurs, avec qui nous travaillons depuis de nombreuses années.</h1>
+  </header>
+  <section>
+    <h1>Les figures de l'ombre qui portent tout le restaurant</h1>
+    <article>
+      <h1>Thierry Torteau, l'homme qui parle à l'oreille des légumes.</h1>
+      <p>Nous collaborons avec Thierry main dans la main pour une alimentation plus saine et des produits nobles. Son expérience fermière et son mode de fonctionnement éco-responsable nous on permis de faire de notre restaurant un établissement élitiste et reconnu.
+<img src = https://cdn.pixabay.com/photo/2023/04/28/09/59/mower-7956264_1280.jpg >      
+Chaque produit qu'il fournit est soigneusement sélectionné, ce qui permet d'offrir à votre restaurant des ingrédients d'une qualité irréprochable. Thierry Torteau sait s'adapter aux exigences du marché tout en garantissant une production respectueuse de l'environnement. Ses légumes, cultivés avec soin, apportent une touche authentique à chaque plat, et sa collaboration avec votre restaurant est un véritable gage de qualité.</p>
+    </article>
+    <article>
+      <h1>Georges Bouche, le boucher accueillant et sympatique qui découpe les vaches du terroir pour nos petits plats. </h1>
+      <p>Georges Bouche est le fournisseur emblématique de nombreux restaurants comme le notre, celui de son village et sûrement beaucoup d'autres, vu le professionalisme que reflète le costume bleu roi qu'il enfile à chaque rendez-vous (Georges, varie les costumes s'il te plait). Son travail remarquable de la viande en fait un atout considérable pour notre belle enseigne. Son expertise dans le domaine de la viande se reflète non seulement dans la sélection des produits qu’il propose, mais aussi dans sa capacité à répondre aux besoins spécifiques de chaque client. Il se distingue également par son service irréprochable : ponctualité, respect des délais et flexibilité dans ses livraisons, des qualités qui sont primordiales pour garantir le bon fonctionnement de votre restaurant.<img src=https://cdn.pixabay.com/photo/2018/03/27/22/26/beef-3267625_960_720.jpg> </p>
+    </article>
+    <article>
+      <h1>Stéphane Vannier, l'incarnation de la gourmandise.</h1>
+      <p>Stéphane est l'incontestable maitre des épices et des produits sucrés.<img src=https://cdn.pixabay.com/photo/2018/06/10/17/39/market-3466906_1280.jpg> Il apporte à Délivrance ce parfum de renouveau qui rend le chef et ses équipes avant-gardistes. Sa sélection d'épices est toujours fraîche et riche en arômes, ce qui permet de sublimer les recettes de manière subtile et originale. De plus, ses produits sucrés sont un véritable délice, ajoutant de la douceur et de la profondeur à chaque création culinaire.Ce qui distingue Stéphane, c'est son engagement envers l'excellence et son souci du détail. Il est toujours à l'écoute de ses clients, prêt à répondre à leurs besoins spécifiques et à proposer des produits sur-mesure qui s'adaptent parfaitement à la vision du chef. </p>
+    </article>
+    <article>
+      <h1>Vanessa Bearnelle, œnologue de renom qui ne laissera pas les clients insatisfaits.</h1>
+      <p>Vanessa Bearnelle est une œnologue d'exception, dont la passion pour le vin se reflète dans son expertise et son savoir-faire. Son approche méthodique et son attention aux détails apportent une véritable valeur ajoutée à votre restaurant. Grâce à sa connaissance approfondie des vins, elle est capable de choisir des accords parfaits qui subliment les plats, tout en apportant des conseils personnalisés aux clients. Son engagement à partager son amour du vin et à promouvoir des découvertes gustatives exceptionnelles est incontestable, faisant d'elle un atout précieux pour notre équipe et un moteur dans l'expérience culinaire que nous proposons.</p>
+      
+    </article>
+    <article>
+      <h1>Et tous nos chaleureux collaborateurs.</h1>
+      <p>L'équipe de Délivrance fournit un travail acharné et collabore avec de nombreux fournisseurs, parfois éphémère quand les produits sont spécifiques. Nous mettons un point d'honneur à remercier tous ces gens qui nous ont accompagnés et qui nous accompagnent encore. Nous n'oublierons jamais l'aide inoubliable qu'ils nous donnent. <img src=https://cdn.pixabay.com/photo/2020/06/21/02/31/wine-5323009_1280.jpg> Merci aux fournisseurs de poisson, d'insecte, de gingembre, de caviar, ou encore d'huitres marinées (pour n'en citer que quelques uns). Sans vous, nos belles et inventives recettes n'auraient jamais vu le jour.</p>
+
+
+      
+    </article>
+  </section>
+</body>
+</html>
