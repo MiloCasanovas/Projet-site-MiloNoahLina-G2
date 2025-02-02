@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, serif;
+  background-color: #142B49;
+  padding: 20px;
+}
+/*grand titre (nom de la carte)*/
+h1 {
+  text-align: center;
+  font-size: normal;
+  color: #BF7D65;
+}
+/*introduction*/
+h3 {
+  text-align: center;
+  font-size: normal;
+  margin-bottom: 30px;
+  color: #FFFFFF ; 
+}
+/*titre dessert ou plat*/
+.GrandTitre {
+  font-size: xx-large;
+  font-family: fantasy;
+  color: #F5EDE0;
+  margin-top: 40px;
+}
+/*couleur de chaque boite contenant prix/plat/description*/
+.boite1 {
+  background-color: #0E1E32;
+  padding: 20px;
+  margin-bottom: 20px ;
+  border-radius: 10px;
+}
+/*nom du plat*/
+.titre {
+  font-size: 20px;
+  font-weight: bold;
+  color: #D9D4BF;
+}
+/*description du plat*/
+.description {
+  font-size: 13px;
+  font-family: Georgia, serif;
+  color: #E7E2DA;
+  margin-inline-start: 2%;
+  margin-inline-end: 10%;
+}
+/*prix du plat*/
+.price {
+  font-size: x-large;
+  color: #E7E2DA;
+  text-align: right;
+  font-family: fantasy;
+  margin-top: -4%;
+}
