@@ -1,0 +1,13 @@
+body {
+  background-color: #142B49;
+}
+.titre {
+  text-align: center;
+  font-size: normal;
+  color: #BF7D65;
+}
+.information{
+  font-size: large;
+  color: #D9D4BF;
+  align: center ;
+} 
