@@ -1,0 +1,57 @@
+.p1{
+  color :#000000 ;
+  font-family : Chancery;
+  font-size : 16px;
+  font-style : italic;
+  font-weight : bold;
+  text-align : left;
+  text-decoration : none;
+  line-height : 25px;
+  text-indent : 20px;}
+
+
+#h1{
+  font-family : Liberation sans serif;
+  font-size : 40px;
+  font-weight : bold;
+  text-align : left;
+  text-decoration : none;
+  line-height : 30px;
+}
+
+#img1{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : right;
+
+}
+
+#img2{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : middle;
+}
+
+#img3{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : right;
+}
+
+#img4{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : right;
+}
+
+p{
+  background-color:#8B6C42
+}
+
+body{
+  background-color:#F5F5DC
+}
