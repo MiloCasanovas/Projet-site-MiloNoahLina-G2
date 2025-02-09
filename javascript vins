@@ -1,0 +1,12 @@
+let titres = document.getElementsByClassName("titre"); // Récupère tous les titres
+let infos = document.getElementsByClassName("p1"); // Récupère tous les paragraphes
+
+for (let i = 0; i < titres.length; i++) {
+    titres[i].onmouseover = function() {
+        infos[i].style.display = "block"; // Affiche le paragraphe correspondant
+    };
+    
+    titres[i].onmouseout = function() {
+        infos[i].style.display = "none"; // Cache le paragraphe correspondant
+    };
+}
