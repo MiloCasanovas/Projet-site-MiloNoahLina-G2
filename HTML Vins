@@ -12,31 +12,31 @@
     <h1 id="h1">Le vin, une signature de notre grand restaurant.</h1>
   </header>
   <section>
-    <h1>La carte des vins de la délivrance</h1>
+    <h1 id="soustitre">La carte des vins de la délivrance 🍷</h1>
     <article>
-      <h1>Le Château Moignon : Grand Cru du Médoc</h1>
+      <h1 class="titre">Le Château Moignon : Grand Cru du Médoc</h1>
       <p class="p1">Établi en 1847 dans le prestigieux terroir du Médoc, le Château Moignon incarne l'excellence des grands vins de Bordeaux. Sur ses 45 hectares de vignes argilo-calcaires, ce domaine familial cultive un assemblage raffiné de Cabernet Sauvignon (65%), Merlot (30%) et Petit Verdot (5%). D'une robe pourpre profonde, ce grand vin dévoile un bouquet complexe de fruits noirs, de cèdre et de tabac blond. La bouche, ample et soyeuse, révèle des arômes de cassis et d'épices, portés par des tanins élégants jusqu'à une finale persistante aux notes de cacao.
-Élevé 18 mois en barriques de chêne français, le Château Moignon accompagne idéalement les viandes rouges et le gibier. Sa production limitée à 80,000 bouteilles par an en fait un vin recherché par les amateurs avertis.</p>
+Élevé 18 mois en barriques de chêne français, le Château Moignon accompagne idéalement les viandes rouges et le gibier. Sa production limitée à 80,000 bouteilles par an en fait un vin recherché par les amateurs avertis. </p>
     </article>
     <article>
-      <h1>Le Clos Bellecrout : Joyau de Saint-Émilion</h1>
+      <h1 class="titre">Le Clos Bellecrout : Joyau de Saint-Émilion</h1>
       <p class="p1">Au cœur des coteaux de Saint-Émilion, le Clos Bellecroute perpétue depuis 1892 l'art de la viticulture. Ce petit domaine de 12 hectares, dont les vignes s'épanouissent sur un plateau calcaire exceptionnel, produit l'un des vins les plus subtils de l'appellation.L'assemblage, dominé par le Merlot (85%) et complété par le Cabernet Franc (15%), donne naissance à un vin d'une remarquable finesse. Sa robe rubis intense prélude à un nez enchanteur de fruits rouges, de truffe et de violette. En bouche, les arômes de cerise noire et de prune se mêlent à des notes délicates de vanille et de cuir, portés par des tanins soyeux.
 Produit en quantités confidentielles (25,000 bouteilles par an), le Clos Bellecroute est élevé pendant 15 mois en fûts de chêne. Un vin d'exception qui exprime toute la noblesse du terroir saint-émilionnais.</p>
     </article>
     <article>
-      <h1>Le Domaine Rochebelle : Trésor des Côtes de Provence</h1>
+      <h1 class="titre">Le Domaine Rochebelle : Trésor des Côtes de Provence</h1>
       <p class="p1">Perché sur les hauteurs de la Provence calcaire, le Domaine Rochebelle est une pépite méconnue qui produit l'un des plus beaux rosés de prestige de la région. Depuis 1923, la famille Rochebelle cultive ses vignes en altitude, à 400 mètres, où la fraîcheur des nuits préserve la finesse des arômes. Ce rosé d'exception, assemblage précis de Grenache (60%), Cinsault (30%) et Rolle (10%), se distingue par sa robe pêche cristalline aux reflets dorés. Son bouquet délicat révèle des notes d'agrumes, de pêche blanche et de fleurs de garrigue. La bouche, d'une rare élégance, allie fraîcheur minérale et onctuosité, avec une finale saline distinctive qui évoque la brise marine.
 Production limitée à 15,000 bouteilles, le Domaine Rochebelle est le secret bien gardé des grandes tables méditerranéennes et le compagnon idéal des soirées estivales raffinées.</p>
     </article>
     <article>
-      <h1>Le Domaine des Viellesanges : L'Excellence du Beaujolais</h1>
+      <h1 class="titre">Le Domaine des Viellesanges : L'Excellence du Beaujolais</h1>
       <p class="p1">Dans les collines granitiques du Beaujolais, le Domaine des Viellesanges révèle depuis 1878 toute la noblesse du cépage Gamay. Ce cru Morgon d'exception, issu d'une parcelle unique de 8 hectares appelée "Les Charmes", témoigne du potentiel extraordinaire de ce terroir.
 La cuvée "Les Charmes" exprime une personnalité unique : sa robe rubis éclatante dévoile un nez intense de cerise noire, de pivoine et d'épices douces. La bouche, à la fois puissante et veloutée, offre une explosion de fruits rouges mûrs, relevée par des notes minérales et une pointe de réglisse. Sa structure soyeuse et sa longue finale démontrent l'élégance naturelle des grands Morgon.
 Produit à seulement 20,000 bouteilles par an, ce nectar délicat vieillit gracieusement pendant 5 à 8 ans, développant des arômes complexes qui rappellent les plus beaux pinots noirs.</p>
       
     </article>
     <article>
-      <h1>Le Clos Saint-Guillaume : Grand Cru d'Alsace</h1>
+      <h1 class="titre">Le Clos Saint-Guillaume : Grand Cru d'Alsace</h1>
       <p class="p1">Sur les pentes ensoleillées de Ribeauvillé, le Clos Saint-Guillaume perpétue depuis 1731 l'art du Riesling d'exception. Ce grand cru alsacien, cultivé sur des sols de schiste rose à 350 mètres d'altitude, bénéficie d'un microclimat unique qui confère au vin une minéralité exceptionnelle.
 La cuvée "Schiste Royal" incarne la quintessence du Riesling alsacien. Sa robe or pâle aux reflets verts précède un bouquet envoûtant d'agrumes confits, de fleurs blanches et de pierre mouillée. La bouche, ciselée et précise, dévoile une tension remarquable entre fruits exotiques et notes pierreuses, sublimée par une acidité vibrante et une finale saline infiniment longue.
 Production confidentielle de 10,000 bouteilles, ce nectar d'exception accompagne les plus belles tables étoilées et peut vieillir majestueusement pendant deux décennies. Un vin de méditation qui illustre la grandeur des blancs d'Alsace.</p>
@@ -45,5 +45,6 @@ Production confidentielle de 10,000 bouteilles, ce nectar d'exception accompagne
       
     </article>
   </section>
+<script src="script.js"></script>
 </body>
 </html>
