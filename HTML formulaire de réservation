@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css"> 
+  <title>reservation -delivrance</title>
+</head>
+<!-- Bouton retour à l'accueil -->
+<a href="index.html" class="btn-accueil">
+    ⬅️ Retour à l'accueil
+</a>
+
+<body>
+  <h2 id="salut" class=titre >Pour réserver une table </h2>
+  <form id="demande_prenom">
+    <p>
+       <label for="votre_prenom" class="information">
+        Entre ton prénom, puis valide :
+        <input type="text" id="votre_prenom" placeholder="Entrez votre prénom" />
+       </label>
+         <br><br>
+        <!-- Email -->
+     <label class="information" id>Email :</label>
+          <input type="email" name="email">
+          <br><br> 
+
+        <label class="information">Date de réservation :</label>  <!-- calendrier -->      
+          <input type="date" name="date">
+        <br><br>
+      
+       <label class="information">Heure de réservation:</label>  <!-- une heure -->      
+          <input type="time" name="hour" min="12:00" max="21:00"> <!--on a un maximun et un minimm-->
+        <br><br>
+      
+       <label class="information">combien de personne vous serez:</label>  <!--nombre de place -->    
+          <input type="number" id="nombre_personne" name="nbPersonne" min="0" max=40> <!--on a un minimm, 40 est le maximum du resto-->
+        <br><br>
+      
+        <label class="information"> indicaction particulier(handicape ect)</label> <!--pour des info en plus--->
+         <input type="text" name="indication particulière">
+           <br><br>
+    </p>
+      <input type="button" value="Valider" id="envoiPrenom" onclick="entreePrenom();" />
+  </form>
+<!-- question 1 -->
+   <form id="questions" class="information" style="display:none;">
+    <p class="question">Trouvez vous notre site a votre goût ?
+      <label for="q1r1">
+        <input type="radio" name="q1" value="r1" id="q1r1" />
+        assez
+      </label>
+      <label for="q1r2">
+        <input type="radio" name="q1" value="r2" id="q1r2" />
+        Tout est parfait 
+      </label>
+      <label for="q1r3">
+        <input type="radio" name="q1" value="r3" id="q1r3" />
+        Pas du tout
+      </label>
+    </p>
+     <!-- question 2 -->
+        <p class="question"> Quel est notre spécialité ?
+      <label for="q2r1">
+        <input type="radio" name="q2" value="r1" id="q2r1" />
+        Ravir vos papilles gustatives jusqu'à en vomir 
+      </label>
+      <label for="q2r2">
+        <input type="radio" name="q2" value="r2" id="q2r2" />
+        Vous faire manger des produits frais et de saison  
+      </label>
+      <label for="q2r3">
+        <input type="radio" name="q2" value="r3" id="q2r3" />
+        Vous souler avec du vin pour vous dérober votre porte monnaie 
+      </label>
+    </p>
+     <!-- question 3 -->
+        <p class="question"> Qui est le chef de ce restaurent ?
+      <label for="q3r1">
+        <input type="radio" name="q3" value="r1" id="q3r1" />
+        jouer a des jeux videos
+      </label>
+      <label for="q3r2">
+        <input type="radio" name="q3" value="r2" id="q3r2" />
+        créer un site internet 
+      </label>
+      <label for="q3r3">
+        <input type="radio" name="q3" value="r3" id="q3r3" />
+        faire un décore de site
+      </label>
+    </p>
+ <input type="button" value=calcul onClick="calculePoints();" class="button" >
+  </form>
+  <article id="correction"></article>
+  <script src="javascript.js"></script>
+
+</body>
+
+</html>
