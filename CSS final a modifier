@@ -1,0 +1,198 @@
+body 
+{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background :#142B49;
+}
+/*css de la page d'accueil*/
+header {
+}
+nav{
+  position: absolute;
+  margin-left: 80%;
+  
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #9a1010;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 27px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #9a1010;
+}
+
+/* Style du sous-menu */
+nav ul li .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: ;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 0px;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #de1d1d;
+}
+section {
+background-color :white ;
+}
+#image2 { 
+    width:10%;
+}
+#image1 { 
+    width:100%;
+}
+button {
+  font-size : 30px;
+  background :#9a1010;
+  margin: 0;
+  padding: 0;
+border-style :solid ;
+}
+button:hover 
+{
+    background: #9a1010;  }
+.boiteAcceil{
+  background-color: #0E1E32;
+  padding: 40px;
+  margin-bottom: 40px ;
+  border-radius: 10px;
+}
+/*css du formulaire de réservation*/
+
+hr {
+    width:200px;
+    background-color:#AABB00;
+    height: 5px;
+}
+/* boutton validé */
+.button, #envoiPrenom  {
+  width:150px;
+  height:30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* grand titre au dessus des information */
+.titre {
+  text-align: center;
+  font-size: normal;
+  color: #BF7D65;
+}
+/* les informations qu'on demande suivi de : */
+.information{
+  font-size: large;
+  color: #D9D4BF;
+  align: center ;
+} 
+/*les bord des carré dans les questions en suite */
+.question {
+    border:1px;
+    border-style:solid;
+    
+}
+.question label {
+    display: block;
+}
+
+#questions {
+    display:none;
+}
+/* resultat si on reussi */
+.bravo {
+  font-size: xx-large; 
+  color: green;   
+  text-align: center; 
+  margin-top: 20px;
+}
+/* résultat si on perd */
+.resultat {
+  font-size: x-large;
+  position: center;
+  color:#D9D4BF; 
+}
+
+/*grand titre (nom de la carte)*/
+h1 {
+  text-align: center;
+  font-size: normal;
+  color: #BF7D65;
+}
+/*introduction*/
+h3 {
+  text-align: center;
+  font-size: normal;
+  margin-bottom: 30px;
+  color: #FFFFFF ; 
+}
+/*titre dessert ou plat*/
+.GrandTitre {
+  font-size: xx-large;
+  font-family: fantasy;
+  color: #F5EDE0;
+  margin-top: 40px;
+}
+/*couleur de chaque boite contenant prix/plat/description*/
+.boite1 {
+  background-color: #0E1E32;
+  padding: 20px;
+  margin-bottom: 20px ;
+  border-radius: 10px;
+}
+/*nom du plat*/
+.titreCarte {
+  font-size: 20px;
+  font-weight: bold;
+  color: #D9D4BF;
+}
+/*description du plat*/
+.description {
+  font-size: 13px;
+  font-family: Georgia, serif;
+  color: #E7E2DA;
+  margin-inline-start: 2%;
+  margin-inline-end: 10%;
+}
+/*prix du plat*/
+.price {
+  font-size: x-large;
+  color: #E7E2DA;
+  text-align: right;
+  font-family: fantasy;
+  margin-top: -4%;
+}
+
+
+
+
+
+
+
+  
