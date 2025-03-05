@@ -1,5 +1,5 @@
 .p1{
-  color :#000000 ;
+  color :#BF7D65; ;
   font-family : Chancery;
   font-size : 16px;
   font-style : italic;
@@ -7,7 +7,9 @@
   text-align : left;
   text-decoration : none;
   line-height : 25px;
-  text-indent : 20px;}
+  text-indent : 20px;
+  font-family : georgia,serif;
+}
 
 
 #h1{
@@ -17,6 +19,7 @@
   text-align : left;
   text-decoration : none;
   line-height : 30px;
+  color : #D9D4BF;
 }
 
 #img1{
@@ -24,14 +27,16 @@
   height :20%;
   border: 1px solid #000;
   float : right;
-
+  margin-left: 0;
 }
+
 
 #img2{
   width :20%;
   height :20%;
   border: 1px solid #000;
   float : middle;
+  margin-right: 0;
 }
 
 #img3{
@@ -39,6 +44,7 @@
   height :20%;
   border: 1px solid #000;
   float : right;
+  margin-top: 15px;
 }
 
 #img4{
@@ -46,12 +52,44 @@
   height :20%;
   border: 1px solid #000;
   float : right;
+  margin-top: 15px;
 }
 
 p{
-  background-color:#8B6C42
+  background-color:#0E1E32;
 }
 
 body{
-  background-color:#F5F5DC
+  background-color:#142B49; 
 }
+
+.titre {
+  padding: 10px;
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc;     
+  margin: 10px 0;
+  color : #D9D4BF;
+  font-weight: bold;
+  background-color:#0E1E32;
+}
+
+#soustitre{
+  color : #D9D4BF;
+}
+
+#img1, #img2, #img3, #img4 {
+  width: 100%; /* Les images occupent toute la largeur de leur conteneur */
+  max-width: 250px; /* Limite la largeur des images */
+  height: auto; /* Laisse la hauteur s'ajuster automatiquement */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  article {
+    width: 100%;
+  }
+
+
+
