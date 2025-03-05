@@ -1,12 +1,29 @@
-let titres = document.getElementsByClassName("titre"); // Récupère tous les titres
-let infos = document.getElementsByClassName("p1"); // Récupère tous les paragraphes
+let titres = document.getElementsByClassName("titre"); // récupère tous les titres
+let infos = document.getElementsByClassName("p1"); // récupère tous les paragraphes
 
 for (let i = 0; i < titres.length; i++) {
     titres[i].onmouseover = function() {
-        infos[i].style.display = "block"; // Affiche le paragraphe correspondant
+        infos[i].style.display = "block"; // affiche le paragraphe correspondant
     };
     
     titres[i].onmouseout = function() {
-        infos[i].style.display = "none"; // Cache le paragraphe correspondant
+        infos[i].style.display = "none"; // cache le paragraphe 
+    };
+}
+
+
+
+
+let stars = document.getElementsByClassName("star");
+
+for (let i = 0; i < stars.length; i++) {
+    stars[i].onclick = function() {
+        for (let j = 0; j < stars.length; j++) {
+            if (j <= i) {
+                stars[j].classList.add("active"); // Active les étoiles avant la sélection
+            } else {
+                stars[j].classList.remove("active"); // Désactive les étoiles après la sélection
+            }
+        }
     };
 }
