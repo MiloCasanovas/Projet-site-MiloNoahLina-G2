@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Accueil - Restaurant Délivrance</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <button onClick="maFonction();"> 
+            <li class="dropdown">
+                <a href="#">Services</a>
+                <ul class="dropdown-content">
+                  <li><a href="carte-délivrance.html">La Carte</a></li> 
+                  <li><a href="restaurant-délivrance.html">Réservation</a></li> 
+                  <li><a href="#ancre1">notre histoire</a></li> 
+                  <li><a href="#ancre2">nous contacter</a></li>
+                </ul>
+          </button>
+        </ul>
+    </nav>
+    <img id="image1" src="https://img.freepik.com/photos-gratuite/restaurant-interieur_1127-3394.jpg" />
+  <section> 
+    <article>
+      <div class="boiteAcceil">
+      <h2 class="titre">L'histoire de notre chef</h2>
+     <span id="ancre1"></span>
+      
+        <p class="information">Gaston Charcutier, le « chef étoilé » de notre restaurant, a toujours rêvé de cuisine sans jamais comprendre comment ça fonctionne. Autodidacte malgré lui, il a découvert l’art culinaire en confondant sucre et sel, et en inventant des plats que personne n’avait osé tenter... pour de bonnes raisons.     
+<br/>Grâce à un malheureux accident sur un plateau télé, Gaston a gagné en « notoriété » et ouvert son propre restaurant. Aujourd’hui, il propose une expérience gastronomique unique, où chaque plat est une surprise... parfois bonne, souvent étrange.
+
+Sa devise ? « Peu importe le goût, tant que c’est cher. »  </p></div>
+    </article>
+    <article>
+      <div class=boiteAcceil>
+      <h2 class=titre>Notre lieu d'exeption</h2>
+      <span id="ancre2"></span>
+      <p class="information"> Vous pourrez nous retrouver <a href="https://maps.app.goo.gl/fYezttAwD95vnjmz9">au 13 Boulevard de l’Arnaque, Étoile-sur-Budget</a> au 13 Boulevard de l’Arnaque, Étoile-sur-Budget. Un restaurant placé aux alentours de Toulouse. Facilement accessible, vous n'avez plus d'excuse pour ne pas venir.       
+      </p>
+        <br class="information"/>Pour nous contacter vous avez:
+        <ul class="information">
+        <li>tel- 05 08 55 33 44 21</li>
+        <li>restaurant_délivrance@gmail.com </li>
+        </ul>
+      <br class="information"/> Pour nous suivre:
+         <br/><a  href="http://www.instagram.com/restaurant_delivrance31?igsh=MTNveGIxajFwdmRxdQ%3D%3D&utm_source=qr"><img id="image2"src="https://f.hellowork.com/blogdumoderateur/2019/10/darkmode-instagram.jpg" /></a>
+           <img src="" />    
+
+       </div>
+    </article>
+  </section> 
+  
+  <aside>
+  </aside>
+  
+  <footer>
+  </footer>
+  
+</body>
+</html>
