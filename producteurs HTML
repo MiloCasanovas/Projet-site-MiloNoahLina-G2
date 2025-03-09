@@ -47,5 +47,40 @@ Chaque produit qu'il fournit est soigneusement sélectionné, ce qui permet d'of
       
     </article>
   </section>
+  <footer>
+    <table>
+       <caption class="p1">La provenance des produits </caption>
+       <tr>
+              <th colspan="2" class="p1">Région</th>
+              <th class="p1">Pourcentage</th>
+       </tr>
+       <tr>
+              <td rowspan="3" class="p1">Légumes et végétaux</td>
+              <td class="p1">NORD</td>
+              <td class="p1">62%</td>
+       </tr>
+       <tr>
+              <td class="p1">SUD</td>
+              <td class="p1">36%</td>
+       </tr>
+       <tr>
+              <td class="p1">ETRANGER</td>
+              <td class="p1">2%</td>
+       </tr>
+       <tr>
+          <td rowspan=3 class="p1">Viandes et poissons</td>
+          <td class="p1">NORD</td>
+          <td class="p1">51%</td>
+       </tr>
+       <tr>
+          <td class="p1">SUD</td>
+          <td class="p1">48.5%</td>
+       </tr>
+       <tr>
+          <td class="p1">ETRANGER</td>
+          <td class="p1">0.5%</td>
+       </tr>
+</table>
+  </footer>
 </body>
 </html>
