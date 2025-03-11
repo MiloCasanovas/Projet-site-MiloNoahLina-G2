@@ -1,0 +1,173 @@
+
+#image1 {
+	width:100%;
+}
+#image2 {
+	width:10%;
+}
+#image3 {
+	width:20%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+#image4{
+	width:100%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+#image5{
+	width:20%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+#image6{
+	width:100%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+nav{
+  z-index: 10;
+  position: absolute;
+  margin-left: 80%;
+ 
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #9a1010;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px 27px;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #9a1010;
+}
+
+/* Style du sous-menu */
+nav ul li .dropdown-content {
+    
+	display: none;
+	position: absolute;
+	background-color: ;
+	min-width: 160px;
+	z-index: 1;
+}
+
+nav ul li:hover .dropdown-content {
+	display: block;
+}
+
+nav ul li .dropdown-content li a {
+	padding: 10px 0px;
+}
+
+nav ul li .dropdown-content li a:hover {
+	background-color: #de1d1d;
+}
+button {
+  font-size : 30px;
+  background :#9a1010;
+  margin: 0;
+  padding: 0;
+  border-style :solid ;
+  transition: background-color 0.3s ease;
+}
+
+
+#nomduresto{
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  width: 100%;
+}
+h1{
+  text-align:center;
+  width: 100%;
+  font-size: 60px;
+  font-family: 'roboto';
+  font-style: italic;
+  color: #9a1010;
+  webkit-text-stroke: 1px whitesmoke;
+}
+h2{
+  font-size:  300%;
+  color: grey;
+  position:relative;
+  display: block;
+}
+#hduc{
+
+width :100% ;
+float : left ;
+top :0px ;
+left :0px ;
+height: 300px ;
+weight: 100px;
+position:relative;
+padding :10px 20px ;
+margin : auto ;
+display: inline-block;
+}
+#nle{
+
+width :100% ;
+float : left ;
+top :0px ;
+left :0px ;
+height: 400px ;
+weight: 100px;
+position:relative;
+padding :10px 20px ;
+margin : auto ;
+display: inline-block;
+}
+#end{
+width :100% ;
+float : left ;
+top :0px ;
+left :0px ;
+height: 300px ;
+weight: 100px;
+position:relative;
+padding :10px 20px ;
+margin : auto ;
+display: inline-block;
+}
+p{
+  margin-left: 25%;
+  font-size: 20px;
+}
+/* Développer */
+#article1 {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #9a1010;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	display:block;
+}
+#article1:hover {
+	background-color: #de1d1d;
+}
+#content {
+  display: none;
+
+
