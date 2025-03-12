@@ -9,7 +9,7 @@
   <title>Nos producteurs</title>
 </head>
 <body>
-  <header>
+  <header><!--création de différents articles-->
     <h1 id="h12">Nos producteurs, avec qui nous travaillons depuis de nombreuses années.</h1>
   </header>
   <section>
@@ -34,7 +34,7 @@ Chaque produit qu'il fournit est soigneusement sélectionné, ce qui permet d'of
     </article>
     <article>
       <h1 class="titre">Vanessa Bearnelle, œnologue de renom qui ne laissera pas les clients insatisfaits.</h1>
-      <img src=https://cdn.pixabay.com/photo/2018/06/10/17/39/market-3466906_1280.jpg id="img3">
+      <img src=https://cdn.pixabay.com/photo/2018/06/10/17/39/market-3466906_1280.jpg id="img3"><!--insertion des images-->
       <p class = "p1prod">Vanessa Bearnelle est une œnologue d'exception, dont la passion pour le vin se reflète dans son expertise et son savoir-faire. Son approche méthodique et son attention aux détails apportent une véritable valeur ajoutée à votre restaurant. Grâce à sa connaissance approfondie des vins, elle est capable de choisir des accords parfaits qui subliment les plats, tout en apportant des conseils personnalisés aux clients. Son engagement à partager son amour du vin et à promouvoir des découvertes gustatives exceptionnelles est incontestable, faisant d'elle un atout précieux pour notre équipe et un moteur dans l'expérience culinaire que nous proposons.</p>
       
     </article>
@@ -48,7 +48,7 @@ Chaque produit qu'il fournit est soigneusement sélectionné, ce qui permet d'of
     </article>
   </section>
   <footer>
-    <table>
+    <table><!--création du tableau sur la provenance des produits-->
        <caption class="p1prod">La provenance des produits </caption>
        <tr>
               <th colspan="2" class="p1prod">Région</th>
