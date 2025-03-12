@@ -1,4 +1,4 @@
-.p1prod{
+.p1prod{/*style des paragraphes*/
   color :#BF7D65; ;
   font-family : Chancery;
   font-size : 16px;
@@ -11,7 +11,7 @@
   font-family : georgia,serif;
 }
 
-
+/*style des titres*/
 #h12{
   font-family : Liberation sans serif;
   font-size : 40px;
@@ -21,7 +21,7 @@
   line-height : 30px;
   color : #D9D4BF;
 }
-
+/*styles des images*/
 #img1{
   width :20%;
   height :20%;
@@ -62,7 +62,7 @@ p{
 body{
   background-color:#142B49; 
 }
-
+/*style du nom des vins*/
 .titre {
   padding: 10px;
   background-color: #f0f0f0; 
@@ -85,7 +85,7 @@ body{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
 }
-
+/*s'adapte à tous les écrans*/
 @media screen and (max-width: 768px) {
   article {
     width: 100%;
