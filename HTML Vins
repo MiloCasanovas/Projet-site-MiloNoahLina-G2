@@ -13,7 +13,7 @@
   </header>
   <section>
     <h1 id="soustitre">La carte des vins de la délivrance 🍷</h1>
-    <article>
+    <article><!--création de différents articles-->
       <h1 class="titre">Le Château Moignon : Grand Cru du Médoc</h1>
       <p class="p1">Établi en 1847 dans le prestigieux terroir du Médoc, le Château Moignon incarne l'excellence des grands vins de Bordeaux. Sur ses 45 hectares de vignes argilo-calcaires, ce domaine familial cultive un assemblage raffiné de Cabernet Sauvignon (65%), Merlot (30%) et Petit Verdot (5%). D'une robe pourpre profonde, ce grand vin dévoile un bouquet complexe de fruits noirs, de cèdre et de tabac blond. La bouche, ample et soyeuse, révèle des arômes de cassis et d'épices, portés par des tanins élégants jusqu'à une finale persistante aux notes de cacao.
 Élevé 18 mois en barriques de chêne français, le Château Moignon accompagne idéalement les viandes rouges et le gibier. Sa production limitée à 80,000 bouteilles par an en fait un vin recherché par les amateurs avertis. </p>
@@ -23,7 +23,7 @@
     <span class="star" data-value="3">★</span>
     <span class="star" data-value="4">★</span>
     <span class="star" data-value="5">★</span>
-  </div>
+  </div><!--L'élément span est un bloc inline-->
     </article>
     <article>
       <h1 class="titre">Le Clos Bellecrout : Joyau de Saint-Émilion</h1>
@@ -80,6 +80,6 @@ Production confidentielle de 10,000 bouteilles, ce nectar d'exception accompagne
       
     </article>
   </section>
-<script src="script.js"></script>
+<script src="script.js"></script><!--lien au javascript-->
 </body>
 </html>
