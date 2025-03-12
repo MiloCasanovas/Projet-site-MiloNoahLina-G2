@@ -12,7 +12,7 @@
 }
 
 
-#h1{
+#h12{
   font-family : Liberation sans serif;
   font-size : 40px;
   font-weight : bold;
@@ -90,6 +90,7 @@ body{
   article {
     width: 100%;
   }
+
 
 
 
