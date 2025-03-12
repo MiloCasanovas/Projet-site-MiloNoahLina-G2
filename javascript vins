@@ -20,9 +20,9 @@ for (let i = 0; i < stars.length; i++) {
     stars[i].onclick = function() {
         for (let j = 0; j < stars.length; j++) {
             if (j <= i) {
-                stars[j].classList.add("active"); // Active les étoiles avant la sélection
+                stars[j].classList.add("active"); // active les étoiles avant la sélection
             } else {
-                stars[j].classList.remove("active"); // Désactive les étoiles après la sélection
+                stars[j].classList.remove("active"); // désactive les étoiles après la sélection
             }
         }
     };
