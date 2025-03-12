@@ -1,4 +1,4 @@
-.p1{
+.p1prod{
   color :#BF7D65; ;
   font-family : Chancery;
   font-size : 16px;
@@ -90,7 +90,6 @@ body{
   article {
     width: 100%;
   }
-
 
 
 
