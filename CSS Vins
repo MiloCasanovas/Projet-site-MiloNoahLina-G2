@@ -34,7 +34,7 @@ body{
   background-color:#142B49; 
 }
 
-.titre {
+.titreV {
   padding: 10px;
   background-color: #f0f0f0; 
   border: 1px solid #ccc;     
@@ -58,3 +58,4 @@ body{
 .star:hover {
   color: gold;
 }
+    
