@@ -1,0 +1,433 @@
+body 
+{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background :#142B49;
+}
+/*css noah*/
+#image1 {
+	width:100%;
+}
+#image2 {
+	width:10%;
+}
+#image3 {
+	width:20%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+#image4{
+	width:100%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+#image5{
+	width:20%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+#image6{
+	width:100%;
+	display: inline-block;
+	position: relative;
+	float : left ;
+}
+nav{
+  z-index: 10;
+  position: absolute;
+  margin-left: 80%;
+ 
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:#D9D4BF;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px 27px;
+	color:#142B49;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #D9D4BF;
+}
+
+/* Style du sous-menu */
+nav ul li .dropdown-content {
+    
+	display: none;
+	position: absolute;
+	background-color: ;
+	min-width: 160px;
+	z-index: 1;
+}
+
+nav ul li:hover .dropdown-content {
+	display: block;
+}
+
+nav ul li .dropdown-content li a {
+	padding: 10px 0px;
+}
+
+nav ul li .dropdown-content li a:hover {
+	background-color: #D9D4;
+}
+button {
+  font-size : 30px;
+  background :#D9D4BF;
+  margin: 0;
+  padding: 0;
+  border-style :solid ;
+  transition: background-color 0.3s ease;
+}
+
+
+#nomduresto{
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  text-align:center;
+  width: 100%;
+  font-size: 60px;
+  font-family: 'roboto';
+  font-style: italic;
+  color: #D9D4BF;
+  webkit-text-stroke: 1px whitesmoke;
+}
+boiteAcceil{
+  text-align:center;
+  width: 100%;
+  font-size: 60px;
+  font-family: 'roboto';
+  font-style: italic;
+  color: #D9D4BF;
+  webkit-text-stroke: 1px whitesmoke;
+}
+h2{
+  font-size:  300%;
+  color: grey;
+  position:relative;
+  display: block;
+}
+#hduc{
+
+width :100% ;
+float : left ;
+top :0px ;
+left :0px ;
+height: 300px ;
+weight: 100px;
+position:relative;
+padding :10px 20px ;
+margin : auto ;
+display: inline-block;
+}
+#nle{
+
+width :100% ;
+float : left ;
+top :0px ;
+left :0px ;
+height: 400px ;
+weight: 100px;
+position:relative;
+padding :10px 20px ;
+margin : auto ;
+display: inline-block;
+}
+#end{
+width :100% ;
+float : left ;
+top :0px ;
+left :0px ;
+height: 300px ;
+weight: 100px;
+position:relative;
+padding :10px 20px ;
+margin : auto ;
+display: inline-block;
+}
+.boiteAcceil{
+  background-color: #0E1E32;
+  padding: 40px;
+  margin-bottom: 40px ;
+  border-radius: 10px;
+}
+/* Développer */
+#article1 {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #D9D4BF;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	display:block;
+}
+#article1:hover {
+	background-color: #de1d1d;
+}
+#content {
+  display: none;
+   }
+  /*css lina*/
+
+hr {
+    width:200px;
+    background-color:#AABB00;
+    height: 5px;
+}
+/* boutton validé */
+.button, #envoiPrenom  {
+  width:150px;
+  height:30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* grand titre au dessus des information */
+.titreGeneral {
+  text-align: center;
+  font-size: normal;
+  color: #BF7D65;
+}
+/* les informations qu'on demande suivi de : */
+.information{
+  font-size: large;
+  color: #D9D4BF;
+  align: center ;
+} 
+/*les bord des carré dans les questions en suite */
+.question {
+    border:1px;
+    border-style:solid;
+    
+}
+.question label {
+    display: block;
+}
+
+#questions {
+    display:none;
+}
+/* resultat si on reussi */
+.bravo {
+  font-size: xx-large; 
+  color: green;   
+  text-align: center; 
+  margin-top: 20px;
+}
+/* résultat si on perd */
+.resultat {
+  font-size: x-large;
+  position: center;
+  color:#D9D4BF; 
+}
+
+}
+/*introduction*/
+h3 {
+  text-align: center;
+  font-size: normal;
+  margin-bottom: 30px;
+  color: #FFFFFF ; 
+}
+/*titre dessert ou plat*/
+.GrandTitre {
+  font-size: xx-large;
+  font-family: fantasy;
+  color: #F5EDE0;
+  margin-top: 40px;
+}
+/*couleur de chaque boite contenant prix/plat/description*/
+.boite1 {
+  background-color: #0E1E32;
+  padding: 20px;
+  margin-bottom: 20px ;
+  border-radius: 10px;
+}
+/*nom du plat*/
+.titreCarte {
+  font-size: 20px;
+  font-weight: bold;
+  color: #D9D4BF;
+}
+/*description du plat*/
+.description {
+  font-size: 13px;
+  font-family: Georgia, serif;
+  color: #E7E2DA;
+  margin-inline-start: 2%;
+  margin-inline-end: 10%;
+}
+/*prix du plat*/
+.price {
+  font-size: x-large;
+  color: #E7E2DA;
+  text-align: right;
+  font-family: fantasy;
+  margin-top: -4%;
+}
+
+/*css de milo*/
+.p1{
+  color :#BF7D65; ;
+  font-family : Chancery;
+  font-size : 16px;
+  font-style : italic;
+  font-weight : bold;
+  text-align : left;
+  text-decoration : none;
+  line-height : 25px;
+  text-indent : 20px;
+  display: none;
+  font-family : georgia,serif;
+}
+  
+#soustitre{
+  color : #D9D4BF;
+}
+
+#h1{
+  font-family : Liberation sans serif;
+  font-size : 40px;
+  font-weight : bold;
+  text-align : left;
+  text-decoration : none;
+  line-height : 30px;
+  color : #D9D4BF;
+}
+
+p{
+  background-color:#0E1E32;
+}
+
+
+.titre {
+  padding: 10px;
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc;     
+  margin: 10px 0;
+  color : #D9D4BF;
+  font-weight: bold;
+  background-color:#0E1E32;
+}
+
+.rating {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.star.active,
+.star:hover {
+  color: gold;
+}
+.p1prod{
+  color :#BF7D65; ;
+  font-family : Chancery;
+  font-size : 16px;
+  font-style : italic;
+  font-weight : bold;
+  text-align : left;
+  text-decoration : none;
+  line-height : 25px;
+  text-indent : 20px;
+  font-family : georgia,serif;
+}
+
+
+#h12{
+  font-family : Liberation sans serif;
+  font-size : 40px;
+  font-weight : bold;
+  text-align : left;
+  text-decoration : none;
+  line-height : 30px;
+  color : #D9D4BF;
+}
+
+#img1{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : right;
+  margin-left: 0;
+}
+
+
+#img2{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : middle;
+  margin-right: 0;
+}
+
+#img3{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : right;
+  margin-top: 15px;
+}
+
+#img4{
+  width :20%;
+  height :20%;
+  border: 1px solid #000;
+  float : right;
+  margin-top: 15px;
+}
+
+
+.titrePro {
+  padding: 10px;
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc;     
+  margin: 10px 0;
+  color : #D9D4BF;
+  font-weight: bold;
+  background-color:#0E1E32;
+}
+
+
+
+#img1, #img2, #img3, #img4 {
+  width: 100%; /* Les images occupent toute la largeur de leur conteneur */
+  max-width: 250px; /* Limite la largeur des images */
+  height: auto; /* Laisse la hauteur s'ajuster automatiquement */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  article {
+    width: 100%;
+  }
+
+
